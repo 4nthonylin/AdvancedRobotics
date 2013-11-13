@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map Servo
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Joystick	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+getX1	KEYWORD2
+getX2	KEYWORD2
+getY1	KEYWORD2
+getY2	KEYWORD2
+getButton1	KEYWORD2
+getButton2	KEYWORD2
+buttonPressed	KEYWORD2
+update KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

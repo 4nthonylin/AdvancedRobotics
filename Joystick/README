@@ -1,0 +1,9 @@
+Processing and Arduino code for Logitech Dual Action Joystick
+Author: Anthony Lin 
+Last Edited: November 13th, 2013
+
+Processing:
+Requires proControl and controlP5 Processing Libraries
+
+Arduino:
+Install library into Arduino sketchbook "/libraries" folder
