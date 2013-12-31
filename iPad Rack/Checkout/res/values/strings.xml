@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Checkout</string>
+
+    <color name="backgroundColor">#005826</color>
+
+    <string name="loginB">Login</string>
+    <string name="loginUser">8 Digit ID</string>
+
+    <color name="entryFields">#FFFFFF</color>
+
+    <string name="title_activity_portal">Portal</string>
+    <string name="placeHolder">placeholder</string>
+    <color name="loginButtonC">#daa520</color>
+    <color name="textColor">#daa520</color>
+    <color name="black">#000000</color>
+
+</resources>

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Login" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:contentDescription="LOGO"
+        android:src="@drawable/stugov_logo1" />
+   <!--  
+    <EditText
+        android:id="@+id/passField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userField"
+        android:layout_below="@+id/userField"
+        android:layout_marginTop="25dp"
+        android:background="@color/entryFields"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:textColor="@color/black" />
+        -->
+
+    <EditText
+        android:id="@+id/userField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:background="@color/entryFields"
+        android:ems="10"
+        android:hint="@string/loginUser"
+        android:inputType="number"
+        android:textColor="@color/black" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:background="@color/loginButtonC"
+        android:onClick="login"
+        android:text="@string/loginB"
+        android:textSize="30sp" />
+  
+</RelativeLayout>
