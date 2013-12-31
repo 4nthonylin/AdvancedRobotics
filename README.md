@@ -1,4 +1,4 @@
 AdvancedRobotics
 ================
 
-Misc. Programs for Advanced Robotics Engineering II
+Miscellaneous programs for Robotics
